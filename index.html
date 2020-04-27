@@ -14,16 +14,18 @@
     <h1>Rock Paper Scissors</h1>
   </header>
   <main>
-    <div class="score-board">
-      <div class="badges" id="user">user</div>
-      <div class="score">0:0</div>
-      <div class="badge" id="comp">comp</div>
+    <div class="scores-section">
+      <div class="score-board">
+        <div class="badges" id="user-label">user</div>
+        <div class="badges" id="comp-label">comp</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+      </div>
     </div>
     <h2>Make Your Move.</h2>
-    <div class="actions">
-      <i class="fas fa-hand-scissors"></i>
-      <i class="fas fa-fist-raised"></i>
-      <i class="fas fa-hand-rock"></i>
+    <div class="choices">
+      <i class="fas fa-hand-scissors choice"></i>
+      <i class="fas fa-fist-raised choice" style="padding-left: 40px; padding-right: 40px;"></i>
+      <i class="fas fa-hand-rock choice"></i>
     </div>
     <h1 id="result">Paper covers rock, You Win!</h1>
   </main>

@@ -1,1 +1,90 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina+2:400,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Baloo Bhaina 2', cursive;
+  background-color: #2D3142;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  padding: 25px;
+}
+
+header h1 {
+  font-size: 2.6rem;
+}
+
+.scores-section {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C5C6C6;
+  border-top: 5px solid #FF7A40;
+  border-bottom: 5px solid #FF7A40;
+  margin-bottom: 25px;
+}
+
+.score-board {
+  padding: 20px 100px;
+  margin: 25px 0;
+  border: 3px solid #2D3142;
+  border-radius: 5px;
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #2D3142;
+  position: relative;
+}
+
+.badges {
+  background-color: #FF7A40;
+  padding: 6px 11px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+#user-label {
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  transform: translate(150%, -50%);
+}
+
+#comp-label {
+  position: absolute;
+  top: 50%;
+  right: -50%;
+  transform: translate(-127%, -50%);
+}
+
+.choices {
+  margin: 40px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.choice {
+  font-size: 5rem;
+  border: 4px solid #FF7A40;
+  border-radius: 50%;
+  padding: 30px;
+  margin: 0 15px;
+  transition: all .3s ease;
+}
+
+.choice:hover {
+  background-color: rgb(30, 32, 44);
+  cursor: pointer;
+}
+
