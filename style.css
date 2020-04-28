@@ -88,3 +88,23 @@ header h1 {
   cursor: pointer;
 }
 
+.win {
+  border: 4px solid rgb(76, 240, 0);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(76,240,0,1);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(76,240,0,1);
+  box-shadow: 0px 0px 14px 0px rgba(76,240,0,1);
+}
+
+.loss {
+  border: 4px solid rgb(226, 0, 0);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(226,0,0,1);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(226,0,0,1);
+  box-shadow: 0px 0px 14px 0px rgba(226,0,0,1);
+}
+
+.draw {
+  border: 4px solid rgb(70, 74, 94);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(70,74,94,.5);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(70,74,94,.5);
+  box-shadow: 0px 0px 14px 0px rgba(70,74,94,.5);
+}
